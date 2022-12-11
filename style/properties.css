@@ -1,0 +1,24 @@
+.header-dark {
+  position: relative;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 0;
+  overflow: hidden;
+  background-color: #062d25;
+}
+
+.header-dark h1 {
+  color: white;
+  font-size: 53px;
+  margin-bottom: 3rem;
+}
+
+.properties-wrapper {
+  padding: 70px 0;
+}
+
+.properties-wrapper h2 {
+  margin-bottom: 3rem;
+}

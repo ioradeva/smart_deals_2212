@@ -1,0 +1,126 @@
+p {
+  line-height: 25px;
+}
+
+.content-wrapper {
+  margin-top: 3rem;
+  border-radius: 15px;
+}
+.property {
+  margin-top: 3rem;
+}
+
+.container {
+  box-shadow: 0 16px 24px 2px rgb(0 0 0 / 14%), 0 6px 30px 5px rgb(0 0 0 / 12%),
+    0 8px 10px -5px rgb(0 0 0 / 20%);
+  padding: 70px 0px;
+}
+
+.place {
+  background: #062d25;
+  color: white;
+  padding: 15px 5px;
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  align-items: center;
+  column-gap: 15px;
+}
+
+.place h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.gallery {
+}
+
+.gallery ul {
+  height: 100% !important;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.lSSlideOuter .lSPager.lSGallery img {
+  height: 35px;
+}
+
+.lSSlideOuter {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* description */
+.property-description {
+  margin-top: 3rem;
+  padding: 0px 15px;
+}
+.price {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #062d25;
+}
+
+.price span {
+  font-size: 14px;
+  font-weight: 400;
+  color: black;
+}
+
+.property-description h3 {
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+
+.icons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 15px;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px 15px;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.icons span {
+  display: block;
+  margin-top: 5px;
+  font-weight: 500;
+}
+
+.icons img {
+  width: 60px;
+}
+
+@media screen and (min-width: 992px) {
+  .property-grid {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15px;
+    background: #f8f9fa;
+    box-shadow: 0 16px 24px 2px rgb(0 0 0 / 14%),
+      0 6px 30px 5px rgb(0 0 0 / 12%), 0 8px 10px -5px rgb(0 0 0 / 20%);
+    padding-bottom: 70px;
+    padding-left: 15px;
+  }
+
+  .gallery {
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  .price {
+    text-align: center;
+  }
+
+  .content-wrapper {
+    margin: 3rem 30px 0;
+  }
+
+  .container {
+    box-shadow: none;
+  }
+}
